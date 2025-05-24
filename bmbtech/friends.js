@@ -7,17 +7,17 @@ const {
 } = require("../bdd/sudo");
 const conf = require("../set");
 zokou({
-  'nomCom': "agent",
+  'nomCom': "agents",
   'categorie': 'General',
-  'reaction': "👊"
+  'reaction': "🤙"
 }, async (_0x1b06c5, _0x54bb8b, _0x2358bf) => {
   const {
     ms: _0x2aecc0,
     mybotpic: _0x43a6e2
   } = _0x2358bf;
   const _0x21b56d = [{
-    'nom': "B.M.B OWNER",
-    'numero': "255767862457"
+    'nom': "B.M.B-TECH OWNER",
+    'numero': "255767862457" 
   },{
     'nom': "DEPLOMENT SERVICES",
     'numero': "254736761160"
@@ -34,7 +34,7 @@ zokou({
     'nom': "dev marisel",
     'numero': "254740007567"
   }, {
-    'nom': "PK",
+    'nom': "pk",
     'numero': "254785392165"
   }, {
     'nom': "",
@@ -58,7 +58,7 @@ zokou({
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello👋  *I'm B.M.B-TECH Wa Bot* \nThe Following Numbers Are For   *B.M.B-TECH* Agents, \nYou Can Ask Them Anything Regarding bmb tech\nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z \n*KEEP USING B.M.B-TECH*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm B.M.B-TECH Wa Bot* \nThe Following Numbers Are For   *B.M.B-TECH* Agents, \nYou Can Ask Them Anything Regarding B.M.B-TECH\nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z \n*KEEP USING B.M.B-TECH*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
     _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }

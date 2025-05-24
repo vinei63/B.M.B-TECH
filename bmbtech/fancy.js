@@ -1,14 +1,14 @@
 const { zokou } = require("../framework/zokou");
-const fancy = require("../commandes/style");
+const fancy = require("../scs/stylish");
 
-zokou({ nomCom: "fancy", categorie: "Fun", reaction: "🖋️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
     const id = arg[0]?.match(/\d+/)?.join('');
     const text = arg.slice(1).join(" ");
 
     try {
         if (id === undefined || text === undefined) {
-            return await repondre(`\nExemple : ${prefixe} power by bmb tech\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('Njabulo_Jb', fancy));
+            return await repondre(`\nExemple : ${prefixe}fancy 10 bmb-tech\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('B.M.B-TECH', fancy));
         }
 
         const selectedStyle = fancy[parseInt(id) - 1];
@@ -22,4 +22,3 @@ zokou({ nomCom: "fancy", categorie: "Fun", reaction: "🖋️" }, async (dest, z
         return await repondre('_Une erreur s\'est produite :(_');
     }
 });
-      

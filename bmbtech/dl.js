@@ -27,7 +27,7 @@ zokou({nomCom : "igdl" , categorie : "Download"},async (dest , zk , commandeOpti
 
 
 zokou({
-  nomCom: "fb",
+  nomCom: "fbdl",
   categorie: "Download",
   reaction: "📽️"
 },
@@ -91,7 +91,7 @@ Description: ${tik.desc}
 });
 
 zokou({
-  nomCom: "fb2",
+  nomCom: "fbdl2",
   categorie: "Download",
   reaction: "📽️"
 },
