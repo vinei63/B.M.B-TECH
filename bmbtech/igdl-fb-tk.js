@@ -16,7 +16,7 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
     let igvid = await axios('https://vihangayt.me/download/instagram?url='+link)
 
     if (igvid.data.data.data[0].type == 'video') {
-    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *bmb-xmd*",gifPlayback : false },{quoted : ms}) 
+    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *Bmw-Md*",gifPlayback : false },{quoted : ms}) 
     }
     else {
         zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *Bmw-Md*"})
@@ -28,7 +28,7 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
 
 
 zokou({
-  nomCom: "fb",
+  nomCom: "facebook",
   categorie: "Download",
   reaction: "📽️"
 },
@@ -92,7 +92,7 @@ Description: ${tik.desc}
 });
 
 zokou({
-  nomCom: "fb2",
+  nomCom: "facebook2",
   categorie: "Download",
   reaction: "📽️"
 },
